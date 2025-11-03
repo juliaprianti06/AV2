@@ -1,0 +1,60 @@
+.status {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 9px;
+  width: fit-content;
+}
+
+.status.concluída {
+  background-color: #22c55e;
+  color: white;
+}
+
+.status.andamento {
+  background-color: #facc15;
+  color: #1e293b;
+}
+
+.status.pendente {
+  background-color: #ef4444;
+  color: white;
+}
+.status.em-producao {
+  background-color: #dbeafe;
+  color: #2563eb;
+}
+
+.status.pronta {
+  background-color: #dcfce7;
+  color: #16a34a;
+}
+
+.status.em-transporte {
+  background-color: #fef3c7;
+  color: #ca8a04;
+}
+.status-teste {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.status-teste.aprovado {
+  color: #16a34a;
+}
+
+.status-teste.reprovado {
+  color: #dc2626;
+}
+
+.status.click {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.status.click:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

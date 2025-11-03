@@ -1,0 +1,93 @@
+.form-container {
+  max-width: 700px;
+  margin: 0 auto; 
+  background-color: #ffffff; 
+  color: #111827; 
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  margin-top:60px;  
+}
+
+.pagina-titulo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111827;
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 6px;
+  
+}
+
+.input-form input[type="text"],
+.input-form input[type="date"] {
+  font-family: inherit; 
+  font-size: 1rem;
+  padding: 12px 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #1e293b;
+}
+
+.input-form input:focus {
+  outline: none;
+  border-color: #1e293b;
+  box-shadow: 0 0 0 2px rgba(30, 41, 59, 0.2);
+}
+
+.form-botoes {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  justify-content: flex-end; 
+}
+
+.btn-salvar,
+.btn-cancelar {
+  font-family: inherit;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-salvar {
+  background-color: #1e293b; 
+  color: #ffffff;
+}
+
+.btn-salvar:hover {
+  background-color: #334155;
+}
+
+.btn-cancelar {
+  background-color: #e2e8f0; 
+  color: #334155;
+}
+
+.btn-cancelar:hover {
+  background-color: #cbd5e1;
+}

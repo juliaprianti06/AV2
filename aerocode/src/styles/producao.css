@@ -1,0 +1,23 @@
+.card-footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.add-btn-etapa {
+  font-weight: 600;
+  font-size: 0.9rem;
+  background-color: #1e293b;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.add-btn-etapa:hover {
+  background-color:#334155;
+}
+
+
+

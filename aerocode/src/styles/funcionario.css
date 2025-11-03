@@ -1,0 +1,85 @@
+.table-container {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  overflow: hidden; 
+}
+.funcionario-table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+.funcionario-table th,
+.funcionario-table td {
+  padding: 16px 20px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+.funcionario-table th {
+  background-color: #f8fafc; 
+  font-size: 0.8rem;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.funcionario-table tbody tr:hover {
+  background-color: #f8fafc; 
+}
+.funcao{
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 99px;
+  text-transform: uppercase;
+}
+.funcao.administrador {
+  background-color: #e0e7ff;
+  color: #4f46e5;
+}
+.funcao.engenheiro {
+  background-color: #dbeafe;
+  color: #2563eb;
+}
+.funcao.operador {
+  background-color: #e2e8f0;
+  color: #475569;
+}
+.status-func{
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.status-func.ativo {
+  color: #16a34a; 
+}
+.status-func.inativo {
+  color: #dc2626; 
+}
+
+.btn-acao {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 0.8rem;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-ativar {
+  background-color: #dcfce7; 
+  color: #16a34a;
+}
+.btn-ativar:hover {
+  background-color: #bbf7d0;
+  color: #15803d;
+}
+.btn-desativar {
+  background-color: #fee2e2; 
+  color: #dc2626;
+}
+.btn-desativar:hover {
+  background-color: #fecaca;
+  color: #b91c1c;
+}
