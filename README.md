@@ -37,7 +37,7 @@ Listagem das peças associadas às aeronaves, com:
 
 -Código da peça.<br>
 -Tipo e descrição.<br>
--Status (Disponível, Em uso, Substituída)
+-Status 
 
 ## 🧪 Testes
 Cards com informações dos testes realizados.
