@@ -8,43 +8,35 @@ Ele foi projetado como uma SPA (Single Page Application) para demonstrar, de for
 ## 🚀 Funcionalidades Principais
 
 -Login e Cadastro de Usuário
--Simulação de autenticação: aceita qualquer e-mail e senha (não vazios).
+<br>
+**-Simulação de autenticação: aceita qualquer e-mail e senha (não vazios).**
+<br>
 -Gerenciamento de Aeronaves
+<br>
 -Exibe cards com informações da aeronave, cliente e data de entrega.
--Permite buscar aeronaves pelo código.✈️ Aerocode
-
+<br>
+-Permite buscar aeronaves pelo código.
 ## 🛩️ Gerenciamento de Aeronaves
 
 Exibe cards informativos com:
 
-Descrição da aeronave
-
-Cliente
-
-Data de entrega
-
-Status de produção
-
-Campo de busca por código da aeronave.
-
-Botão “Cadastrar Aeronave” abre um formulário simulado de registro.
-
-Status interativo:
-
-“EM ANDAMENTO” → pode ser atualizado.
-
-“CONCLUÍDA” → é bloqueado (não clicável).
+-Descrição da aeronave <br>
+-Cliente<br>
+-Data de entrega<br>
+-Status de produção<br>
+-Campo de busca por código da aeronave.<br>
+-Botão “Cadastrar Aeronave” abre um formulário simulado de registro.<br>
 
 ## ⚙️ Etapas de Produção
--Cards informando nome e status da etapa.
--Botão para adicionar nova etapa.
+-Cards informando nome e status da etapa.<br>
+-Botão para adicionar nova etapa.<br>
 -Etapas concluídas não podem voltar a ser pendentes.
 
 ## 🧩 Peças
 Listagem das peças associadas às aeronaves, com:
 
--Código da peça.
--Tipo e descrição.
+-Código da peça.<br>
+-Tipo e descrição.<br>
 -Status (Disponível, Em uso, Substituída)
 
 ## 🧪 Testes
@@ -59,7 +51,7 @@ Exibição do resultado de forma visual:
 Página dedicada ao gerenciamento e visualização dos funcionários cadastrados.
 
 ## 📊 Relatórios
-Geração automática de relatório em texto (.txt) contendo dados da aeronave, cliente, etapas, peças e testes.
+Geração de relatório em texto (.txt) contendo dados da aeronave, cliente, etapas, peças e testes.
 
 ## Como Executar o projeto
 Acesse o diretório:
