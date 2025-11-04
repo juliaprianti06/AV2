@@ -63,6 +63,8 @@ Geração automática de relatório em texto (.txt) contendo dados da aeronave, 
 
 ## Como Executar o projeto
 Acesse o diretório:
+cd AV2
+
 cd aerocode
 
 Instale as dependências:
